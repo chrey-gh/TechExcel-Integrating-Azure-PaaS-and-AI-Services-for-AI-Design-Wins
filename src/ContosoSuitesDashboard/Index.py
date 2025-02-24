@@ -1,4 +1,7 @@
 import streamlit as st
+import debugpy
+debugpy.listen(5679)
+debugpy.wait_for_client()
 
 st.set_page_config(layout="wide")
 
@@ -22,4 +25,5 @@ def main():
     )
 
 if __name__ == "__main__":
+
     main()
