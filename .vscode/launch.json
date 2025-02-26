@@ -3,18 +3,12 @@
   "configurations": [
       {
         "name": "Python: Streamlit",
-        "type": "debugpy",
-        "request": "attach",
-        "connect": {
-            "host": "localhost",
-            "port": 5679
-        },
-        "pathMappings": [
-            {
-                "localRoot": "${workspaceFolder}",
-                "remoteRoot": "${workspaceFolder}"
-            }
-        ]
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/ContosoSuitesDashboard/Index.py",
+        "console": "integratedTerminal",
+        "args": ["run"]
+        
     },
     {
       "name": "Attach to .NET Functions",
