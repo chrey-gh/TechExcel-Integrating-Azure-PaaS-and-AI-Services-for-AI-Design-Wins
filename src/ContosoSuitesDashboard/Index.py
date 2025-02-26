@@ -1,9 +1,9 @@
 import streamlit as st
-import debugpy
+#import debugpy
 
 
-debugpy.listen(5678)
-debugpy.wait_for_client()
+# debugpy.listen(5678)
+# debugpy.wait_for_client()
 
 st.set_page_config(layout="wide")
 
